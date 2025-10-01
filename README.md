@@ -15,11 +15,12 @@ You will need:
 Follow these steps to get your development environment set up:
 
   1. Clone the repository
+  
   2. From the root directory, navigate to the `\WebApi` directory:
     ```
     cd WebApi
     ```
-    Then build and run the backend by running:
+Then build and run the backend by running:
     ```
     dotnet run
     ```
@@ -27,7 +28,7 @@ Follow these steps to get your development environment set up:
      ```
 	 cd ClientApp
 	 ```
-    Then restore the required packages by running:
+Then restore the required packages by running:
      ```
 	 npm install
 	 ```
