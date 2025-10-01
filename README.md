@@ -18,11 +18,11 @@ Follow these steps to get your development environment set up:
   
   2. From the root directory, navigate to the `\WebApi` directory:
      ```
-    cd WebApi
+     cd WebApi
      ```
   3. Then build and run the backend by running:
      ```
-    dotnet run
+     dotnet run
      ```
   4. After the backend has started, open another command window in the root directory and navigate to the `\ClientApp` directory:
      ```
