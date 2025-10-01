@@ -20,23 +20,23 @@ Follow these steps to get your development environment set up:
     ```
     cd WebApi
     ```
-Then build and run the backend by running:
+  3. Then build and run the backend by running:
     ```
     dotnet run
     ```
-  3. After the backend has started, open another command window in the root directory and navigate to the `\ClientApp` directory:
+  4. After the backend has started, open another command window in the root directory and navigate to the `\ClientApp` directory:
      ```
 	 cd ClientApp
 	 ```
-Then restore the required packages by running:
+  5. Then restore the required packages by running:
      ```
 	 npm install
 	 ```
-  4. Finally, launch the frontend by running:
+  6. Finally, launch the frontend by running:
       ```
      npm start
      ```
 
-  5. Launch [http://localhost:5149/api/todo](http://localhost:5149/api/todo) in your browser to view the API
+  7. Launch [http://localhost:5149/api/todo](http://localhost:5149/api/todo) in your browser to view the API
   
-  6. Launch [http://localhost:4200/](http://localhost:4200/) in your browser to view the UI
+  8. Launch [http://localhost:4200/](http://localhost:4200/) in your browser to view the UI
