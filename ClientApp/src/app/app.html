@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Todo List</h1>
+
+  <div class="add-todo">
+    <input [(ngModel)]="newTodoTitle" placeholder="Enter new todo" />
+    <button (click)="addTodo()">Add</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let todo of todos">
+      {{ todo.title }}
+      <button (click)="deleteTodo(todo.id!)">Delete</button>
+    </li>
+  </ul>
+</div>
+<!-- Placeholder for future routes -->
+<router-outlet></router-outlet>
